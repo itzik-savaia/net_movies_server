@@ -46,7 +46,7 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -203,22 +203,23 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {
-      "sha512": "d5/5CDc4TAjrgO9oyyj+FHUDVumxgrlCMJqDtUX4GyTnr1Q/BP88PhnVunRZ9AQcL2UQkM4EkRNyFelPXunHtw==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
+      "sha512": "LXlwvlXetgFg2sqsLCzi+Kd+nV78VrRzy9u6nKU05yx9tcsF9BcLqL/+vtj01Z7RPhp0U8D4Px/bHbyMR9Ddjg==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.9.10",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EULA.md",
+        "ThirdPartyNotices.txt",
         "build/Container.props",
         "build/Container.targets",
         "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
         "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.9.10.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -349,7 +350,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.9.10",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
       "System.IdentityModel.Tokens.Jwt >= 6.7.1"
     ]
   },
@@ -393,7 +394,7 @@
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
-            "version": "[1.9.10, )"
+            "version": "[1.10.8, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
