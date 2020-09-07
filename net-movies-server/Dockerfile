@@ -2,22 +2,6 @@
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
-WORKDIR /src
-COPY ["net-movies-server.csproj", "net-movies-server/"]
-RUN dotnet restore "net-movies-server/net-movies-server.csproj"
 COPY . .
-WORKDIR "/src/net-movies-server"
-RUN dotnet build "net-movies-server.csproj" -c Release -o /app/build
 
-FROM build AS publish
-RUN dotnet publish "net-movies-server.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "net-movies-server.dll"]
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet net-movies-server.dll
