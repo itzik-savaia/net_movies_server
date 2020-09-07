@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["net-movies-server.csproj", "net-movies-server/"]
-RUN dotnet restore "net-movies-server/net-movies-server.csproj"
+COPY ["SearchMovieServer/net-movies-server.csproj", "SearchMovieServer/"]
+RUN dotnet restore "SearchMovieServer/net-movies-server.csproj"
 COPY . .
-WORKDIR "/src/net-movies-server"
+WORKDIR "/src/SearchMovieServer"
 RUN dotnet build "net-movies-server.csproj" -c Release -o /app/build
 
 FROM build AS publish
@@ -19,5 +19,5 @@ RUN dotnet publish "net-movies-server.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "net-movies-server.dll"]
+CMD ["dotnet", "net-movies-server.dll"]
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet net-movies-server.dll

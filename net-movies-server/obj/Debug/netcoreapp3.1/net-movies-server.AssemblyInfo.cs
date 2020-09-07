@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a0e4cea9-4a1d-419a-a9ef-3c6ba59048a8")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("babfa5dc-7b30-40ad-8393-8cf238444f36")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("net-movies-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

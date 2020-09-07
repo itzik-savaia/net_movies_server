@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\net-movies-server\\net-movies-server.csproj": {}
+    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\net-movies-server\\net-movies-server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\net-movies-server\\net-movies-server.csproj": {
+    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\net-movies-server\\net-movies-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\net-movies-server\\net-movies-server.csproj",
+        "projectUniqueName": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\net-movies-server\\net-movies-server.csproj",
         "projectName": "net-movies-server",
-        "projectPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\net-movies-server\\net-movies-server.csproj",
+        "projectPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\net-movies-server\\net-movies-server.csproj",
         "packagesPath": "C:\\Users\\Itzik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\net-movies-server\\obj\\",
+        "outputPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\net-movies-server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Itzik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,25 +43,21 @@
               "target": "Package",
               "version": "[3.1.7, )"
             },
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[6.7.1, )"
-            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.8, )"
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "MongoDB.Bson": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[2.11.1, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.11.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

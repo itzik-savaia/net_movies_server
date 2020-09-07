@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\Tokens\\Tokens.csproj": {}
+    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\Tokens\\Tokens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\Tokens\\Tokens.csproj": {
+    "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\Tokens\\Tokens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\Tokens\\Tokens.csproj",
+        "projectUniqueName": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\Tokens\\Tokens.csproj",
         "projectName": "Tokens",
-        "projectPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\Tokens\\Tokens.csproj",
+        "projectPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\Tokens\\Tokens.csproj",
         "packagesPath": "C:\\Users\\Itzik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net_movies_server\\SearchMovieServer\\Tokens\\obj\\",
+        "outputPath": "C:\\Users\\Itzik\\Desktop\\work\\search_movie\\net-movies-server\\Tokens\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Itzik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,9 +39,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
